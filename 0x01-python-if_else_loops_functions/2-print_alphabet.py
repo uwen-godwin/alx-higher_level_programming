@@ -1,4 +1,4 @@
 #!/usr/bin/python3
 for char in range(ord('a'), ord('z') + 1):
-    print("{}".format(chr(char)), end=' ', flush=True)
+    print("{}".format(chr(char)), end=' ')
 print()
