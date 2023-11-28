@@ -1,6 +1,10 @@
 #!/usr/bin/python3
 def islower(c):
-    return ord('a') <= ord(c) <= ord('z')
+    return ord('a') <= ord(c) <= ord('z'):
+        return True
+    else:
+        raise ValueError("Uppercase character detected!")
+
 print("a is {}".format("lower" if islower("a") else "upper"))
 print("H is {}".format("lower" if islower("H") else "upper"))
 print("A is {}".format("lower" if islower("A") else "upper"))
