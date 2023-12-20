@@ -1,0 +1,4 @@
+libPython.so
+*main
+*test
+__pycache__
