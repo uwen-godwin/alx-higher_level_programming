@@ -8,6 +8,7 @@ def safe_function(fct, *args):
         print("Exception: {}".format(e), file=sys.stderr)
         return None
 
+
 if __name__ == "__main__":
     def my_div(a, b):
         return a / b
