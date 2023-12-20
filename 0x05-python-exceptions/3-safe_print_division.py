@@ -8,6 +8,7 @@ def safe_print_division(a, b):
         print("Inside result: None")
         return None
 
+
 if __name__ == "__main__":
     a = 12
     b = 2
