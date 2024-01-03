@@ -63,8 +63,8 @@ The project follows a modular structure, with each script addressing specific pr
 
 To execute tests for the project, use the following command:
 
-```bash
-python3 -m doctest ./tests/*
+	```bash
+	python3 -m doctest ./tests/*
 
 ## Author
 - [Github](https://github.com/uwen-godwin)||[Linkedln](https://www.linkedin.com/in/godwin-uwen-551b73243/)
