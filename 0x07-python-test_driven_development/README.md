@@ -50,14 +50,10 @@ The project follows a modular structure, with each script addressing specific pr
 ## Requirements
 
 - Python Scripts
-- Editors: vi, vim, emacs
+- Editor: vi
 - Interpreter: Python 3 (version 3.8.5)
 - Pycodestyle: Version 2.8.*
-- All files must end with a new line
-- The first line of all files must be exactly `#!/usr/bin/python3`
-- Each file must be executable
-- The length of files will be tested using `wc`
-- A `README.md` file at the root of the project folder is mandatory
+- The length of files was tested using `wc`
 
 ## How to Run Tests
 
