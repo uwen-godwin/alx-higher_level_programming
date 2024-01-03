@@ -67,4 +67,4 @@ To execute tests for the project, use the following command:
 python3 -m doctest ./tests/*
 
 ## Author
-- [Github](https://github.com/uwen-godwin)||[Linkedin](https://www.linkedin.com/in/godwin-uwen-551b73243/)
+- [Github](https://github.com/uwen-godwin)||[Linkedln](https://www.linkedin.com/in/godwin-uwen-551b73243/)
