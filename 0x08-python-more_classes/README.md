@@ -7,22 +7,17 @@ This project comprises two main components: a Python script for solving the N-Qu
    - Solves the N-Queens puzzle for a given N.
    - Finds all possible arrangements of N queens on an NxN chessboard, ensuring no two queens threaten each other.
 
-2. **Rectangle Classes Scripts:**
-   - `0-rectangle.py`, `1-rectangle.py`, `2-rectangle.py`, `3-rectangle.py`, `4-rectangle.py`, `6-rectangle.py`: Define the Rectangle class with various features and functionalities.
-   - These scripts cover aspects such as width, height, area, perimeter, etc.
-
-## Additional Files
-1. **Rectangle Classes**
+2. **Rectangle Classes Scripts**
    - `0-rectangle.py`: Initial implementation of the Rectangle class.
    - `1-rectangle.py`: Enhances the Rectangle class with getter and setter methods for width and height.
+   - `2-rectangle.py`: Implements further functionalities for the Rectangle class.
    - `3-rectangle.py`: Implements area and perimeter methods for the Rectangle class.
+   - `4-rectangle.py`: Continues extending the Rectangle class.
    - `5-rectangle.py`: Manages the number of instances of the Rectangle class.
+   - `6-rectangle.py`: Adds more features to the Rectangle class.
    - `7-rectangle.py`: Continues extending the Rectangle class.
-   - `9-rectangle.py`: Adds further validations and functionalities to the Rectangle class.
-
-2. **Geometry Module**
-   - `7-base_geometry.py`: Defines the `BaseGeometry` class with basic geometry functionalities.
-   - `8-rectangle.py`, `9-rectangle.py`: Builds upon the Rectangle class with additional validations and functionalities.
+   - These scripts cover aspects such as width, height, area, perimeter, etc.
+   - Refer to each script for specific usage instructions and details.
 
 ## Files and Usage
 1. **N Queens Script**
@@ -32,10 +27,6 @@ This project comprises two main components: a Python script for solving the N-Qu
      ./101-nqueens.py 4
      ./101-nqueens.py 6
      ```
-
-2. **Rectangle Classes Scripts**
-   - `0-rectangle.py`, `1-rectangle.py`, `2-rectangle.py`, `3-rectangle.py`, `4-rectangle.py`, `6-rectangle.py`: Define the Rectangle class with different functionalities.
-   - Refer to each script for specific usage instructions and details.
 
 ## Usage
 Feel free to explore and use the provided scripts for your Python programming tasks. Detailed instructions for each script can be found within their respective files.
