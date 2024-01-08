@@ -1,0 +1,15 @@
+This is a test file for the BaseGeometry class.
+
+The BaseGeometry class is expected to have the following behavior:
+
+1. Create an instance of BaseGeometry.
+2. Attempt to call the area() method, which should raise an exception.
+
+Test Case:
+
+Create a BaseGeometry instance:
+>>> base_geometry = BaseGeometry()
+
+Attempt to call the area() method:
+>>> base_geometry.area()
+[Exception] area() is not implemented

@@ -1,0 +1,32 @@
+This is a test file for the MyList class.
+
+The MyList class is expected to have the following behavior:
+
+1. Create an instance of MyList.
+2. Append integers to the list.
+3. Print the list.
+4. Print the sorted list.
+
+Test Case:
+
+Create a MyList instance:
+>>> my_list = MyList()
+
+Append integers to the list:
+>>> my_list.append(1)
+>>> my_list.append(4)
+>>> my_list.append(2)
+>>> my_list.append(3)
+>>> my_list.append(5)
+
+Print the list:
+>>> print(my_list)
+[1, 4, 2, 3, 5]
+
+Print the sorted list:
+>>> my_list.print_sorted()
+[1, 2, 3, 4, 5]
+
+Print the original list to verify it is not modified:
+>>> print(my_list)
+[1, 4, 2, 3, 5]
