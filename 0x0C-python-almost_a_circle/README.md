@@ -59,23 +59,25 @@ This section lists the tasks associated with the project along with brief descri
 ### 0. If it's not tested, it doesn't work
 Ensure comprehensive unit tests for all files, classes, and methods. Run tests using:
 ```bash
-python3 -m unittest discover tests
+
+### python3 -m unittest discover tests
+
 1. Base class
-Create a Base class managing the id attribute for all future classes.
+	Create a Base class managing the id attribute for all future classes.
 2. First Rectangle
-Create a Rectangle class that inherits from Base and manages width, height, x, y.
+	Create a Rectangle class that inherits from Base and manages width, height, x, y.
 3. Validate attributes
-Add validation to setter methods in the Rectangle class.
+	Add validation to setter methods in the Rectangle class.
 4. Area first
-Add a method area() to calculate the area of a Rectangle instance.
+	Add a method area() to calculate the area of a Rectangle instance.
 5. Display #0
-Add a method display() to print the Rectangle instance using '#'.
+	Add a method display() to print the Rectangle instance using '#'.
 6. str
-Implement the __str__ method to return a string representation of the Rectangle instance.
+	Implement the __str__ method to return a string representation of the Rectangle instance.
 7. Display #1
-Update the display() method to support x and y parameters for indentation.
+	Update the display() method to support x and y parameters for indentation.
 8. Update #0
-Add an update(*args, **kwargs) method to update the attributes of the Rectangle instance.
+	Add an update(*args, **kwargs) method to update the attributes of the Rectangle instance.
 ... (Continue with the rest of the tasks)
 
 ## Conclusion
