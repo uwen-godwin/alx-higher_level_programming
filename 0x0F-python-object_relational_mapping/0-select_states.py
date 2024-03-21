@@ -1,20 +1,13 @@
 #!/usr/bin/python3
-
 """
-This script lists all states from the database hbtn_0e_0_usa.
+Script that lists all states from the database hbtn_0e_0_usa.
 """
 
 import sys
 import MySQLdb
 
-
 def main():
-    """
-    Retrieve and print states from the database.
-
-    This function connects to the MySQL database using the provided credentials
-    and retrieves all states from the 'states' table, printing them to the console.
-    """
+    """Main function to retrieve and print states from the database."""
     # Check if correct number of command-line arguments are provided
     if len(sys.argv) != 4:
         print("Usage: {} <username> <password> <database>".format(sys.argv[0]))
@@ -60,4 +53,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
