@@ -9,7 +9,12 @@ import MySQLdb
 
 
 def main():
-    """Retrieve and print states from the database."""
+    """
+    Retrieve and print states from the database.
+
+    This function connects to the MySQL database using the provided credentials
+    and retrieves all states from the 'states' table, printing them to the console.
+    """
     # Check if correct number of command-line arguments are provided
     if len(sys.argv) != 4:
         print("Usage: {} <username> <password> <database>".format(sys.argv[0]))
