@@ -1,18 +1,28 @@
 #!/usr/bin/python3
-"""  lists all states from the database hbtn_0e_0_usa """
-import MySQLdb
+"""Script that lists all State objects from the database hbtn_0e_6_usa"""
 import sys
-
+from sqlalchemy import create_engine
+from sqlalchemy.orm import sessionmaker
+from model_state import Base, State
 
 if __name__ == "__main__":
-    db = MySQLdb.connect(host="localhost", user=sys.argv[1],
-                         passwd=sys.argv[2], db=sys.argv[3], port=3306)
-    cur = db.cursor()
-    cur.execute("""SELECT cities.name FROM
-                cities INNER JOIN states ON states.id=cities.state_id
-                WHERE states.name=%s""", (sys.argv[4],))
-    rows = cur.fetchall()
-    tmp = list(row[0] for row in rows)
-    print(*tmp, sep=", ")
-    cur.close()
-    db.close()
+    # Create SQLAlchemy engine to connect to MySQL server
+    engine = create_engine('mysql+mysqldb://{}:{}@localhost:3306/{}'.
+                           format(sys.argv[1], sys.argv[2], sys.argv[3]),
+                           pool_pre_ping=True)
+
+    # Create a configured "Session" class
+    Session = sessionmaker(bind=engine)
+
+    # Create a Session
+    session = Session()
+
+    # Query all State objects and sort by id
+    states = session.query(State).order_by(State.id).all()
+
+    # Print the results
+    for state in states:
+        print("{}: {}".format(state.id, state.name))
+
+    # Close the session
+    session.close()
