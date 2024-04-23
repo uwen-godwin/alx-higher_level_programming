@@ -16,18 +16,20 @@ This repository contains JavaScript scripts for various web scraping tasks. Each
 curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 sudo apt-get install -y nodejs
 
-2. To install the required npm packages:
+
+2.  To install the required npm packages:
 
 	sudo npm install request --global
 	sudo npm install semistandard --global
- 	export NODE_PATH=/usr/lib/node_modules
-
+	export NODE_PATH=/usr/lib/node_modules
 
 Scripts
 
-
 - 0-readme.js
 Reads and prints the content of a file.
+
+
+
 
 
 Usage:
