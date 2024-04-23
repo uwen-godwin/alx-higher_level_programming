@@ -9,6 +9,7 @@ request(apiUrl, (error, response, body) => {
     console.error(error);
     return;
   }
+
   const films = JSON.parse(body).results;
   const count = films.reduce((total, film) => {
     if (film.characters.includes('https://swapi-api.alx-tools.com/api/people/18/')) {
@@ -16,5 +17,6 @@ request(apiUrl, (error, response, body) => {
     }
     return total;
   }, 0);
+
   console.log(count);
 });
