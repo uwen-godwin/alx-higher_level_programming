@@ -10,13 +10,13 @@ This repository contains JavaScript scripts for various web scraping tasks. Each
 
 ## Installation
 
-To install Node.js version 14.x:
+1. To install Node.js version 14.x:
 
 ```bash
 $ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 $ sudo apt-get install -y nodejs
 
-1. To install the required npm packages:
+2. To install the required npm packages:
 
 $ sudo npm install request --global
 $ sudo npm install semistandard --global
@@ -27,14 +27,11 @@ Scripts
 Reads and prints the content of a file.
 
 Usage:
-
-$ ./0-readme.js <file_path>
-
+$./0-readme.js <file_path>
 1-writeme.js
 Writes a string to a file.
 
 Usage:
-
 $ ./1-writeme.js <file_path> <string_to_write>
 
 2-statuscode.js
