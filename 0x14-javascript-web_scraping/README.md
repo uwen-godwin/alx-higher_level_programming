@@ -18,9 +18,9 @@ $ sudo apt-get install -y nodejs
 
 2. To install the required npm packages:
 
-$ sudo npm install request --global
-$ sudo npm install semistandard --global
-$ export NODE_PATH=/usr/lib/node_modules
+	sudo npm install request --global
+	sudo npm install semistandard --global
+ 	export NODE_PATH=/usr/lib/node_modules
 
 
 Scripts
@@ -29,31 +29,31 @@ Reads and prints the content of a file.
 
 
 Usage:
-$./0-readme.js <file_path>
+	./0-readme.js <file_path>
 1-writeme.js
 Writes a string to a file.
 
 
 Usage:
-$ ./1-writeme.js <file_path> <string_to_write>
+	./1-writeme.js <file_path> <string_to_write>
 2-statuscode.js
 Displays the status code of a GET request.
 
 
 Usage:
-$ ./2-statuscode.js <URL>
+	./2-statuscode.js <URL>
 3-starwars_title.js
 Prints the title of a Star Wars movie with a given movie ID.
 
 
 Usage:
-$ ./3-starwars_title.js <movie_id>
+	./3-starwars_title.js <movie_id>
 4-starwars_count.js
 Prints the number of movies where the character “Wedge Antilles” is present.
 
 
 Usage:
-$ ./4-starwars_count.js <API_URL>
+	./4-starwars_count.js <API_URL>
 5-request_store.js
 Gets the contents of a webpage and stores it in a file.
 
@@ -64,15 +64,18 @@ Gets the contents of a webpage and stores it in a file.
 
 
 Usage:
-$ ./5-request_store.js <URL> <file_path>
+	./5-request_store.js <URL> <file_path>
 6-completed_tasks.js
 Computes the number of tasks completed by user id.
-Usage:6-completed_tasks.js
+
+
+Usage:
+6-completed_tasks.js
 Computes the number of tasks completed by user id.
 
 
 Usage:
-$ ./6-completed_tasks.js <API_URL>
+	./6-completed_tasks.js <API_URL>
 
 
 
